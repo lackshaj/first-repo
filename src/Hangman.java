@@ -56,7 +56,7 @@ public class Hangman {
 
     private static String selectWord(String difficulty) {
         try {
-            List<String> words = Files.readAllLines(Paths.get("words.txt"));
+            List<String> words = Files.readAllLines(Paths.get("src/words.txt"));
             List<String> filteredWords = new ArrayList<>();
 
             // Filter words based on the difficulty level
