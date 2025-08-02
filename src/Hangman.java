@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
+// Main Hangman game class - handles game initialization and flow
 public class Hangman {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
